@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 50px 90px;
+    border-radius: 30px;
+    display: flex;
+    height: 500px;
+    gap: 20px;
+    width: 70%;
+    background: url('https://images.unsplash.com/photo-1625685554505-0aa67fdf16e4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card{
+    position: relative;
+    height: 100%;
+    width: 32%;
+    background-color: grey;
+    overflow: hidden;
+    
+    
+    border-radius: 20px;
+    transition: all .7s;
+}
+
+.card1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.card2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.card3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text h1{
+    color: white;
+    position: absolute;
+    font-size: 2vw;
+    z-index: 2;
+}
